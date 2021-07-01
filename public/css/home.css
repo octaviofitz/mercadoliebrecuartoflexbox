@@ -1,0 +1,426 @@
+.home{
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home .main{
+    align-items: center;
+    width: 90%;
+    margin-left: 15px;
+}
+
+
+/* header */
+
+.home .logo{
+    width: 135px;
+    margin: 15px 32px 15px;
+}
+
+.home .header{
+    background-color: #EAC926;
+    margin: 0;
+    padding: 0;
+    height: 180px;
+    width: 100%;
+}
+
+.home .barra{
+    margin-left: 16px;
+}
+
+.home .compracuotas{
+    margin-left: 40px;
+    font-size: 12px;
+    margin-bottom: 22px;
+}
+
+.home .lista a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px
+}
+
+.home .lista{
+    list-style: none;
+    padding-left: 3px;
+    color: black;
+    margin-bottom: 30px;
+    font-size: 12px;
+    display: none;
+    
+}
+
+.home .burgermenu{
+    display: inline;
+    margin: 15px 0 0 45%;
+    background-color: rgb(33, 89, 192);
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 14px;
+}
+
+/* productos */
+
+.home .banner{
+    padding: 0px 5px 20px 0;
+    display: none;
+}
+
+.home .basado{
+    text-align: center;
+}
+
+.home .oferta{
+    text-align: center;
+}
+
+
+.home .articulos .imagenproducto{
+    width: 100%;
+}
+
+.home .articulos{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.home .articulos .fa-truck{
+  color: #39b54a;
+  border-radius: 50%;
+  border: solid 1px #39b54a;;
+  padding: 4px;
+  margin: 10px 10px 1px ;
+}
+
+.home .articulos .infoproductos{
+    border-top: solid 1px #ebebeb;
+}
+
+.home .articulos .infoproductos p{
+    line-height : 15px;
+}
+
+.home h2{
+    font-size: 24px;
+
+}
+
+.home .articulos .precio{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.home .articulos .descuento{
+    font-size: 16px;
+    color: #39b54a;
+    margin-left: 10px;
+}
+
+.home .articulos .descripcion{
+    font-size: 16px;
+    margin-left: 10px;
+    color: #666;
+    font-weight: 400;
+    display: none;
+    
+}
+
+
+/* footer */
+
+.home .footer{
+    background-color: white;
+    /* font-size: 12px; */
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.home h2{
+    color: #666;
+}
+
+.home .footer .fa-credit-card{
+    margin-top: 30px;
+    color: #1259c3;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.home .footer .fa-gift{
+    margin-top: 30px;
+    color: #1259c3;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.home .footer .fa-user-shield{
+    margin-top: 30px;
+    color: #1259c3;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.home .footer h4{
+    color: #444;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.home .footer p{
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.home .footer .copyright {
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 9px;
+}
+
+
+@media (min-width: 361px) {
+  
+    .home .main{
+        margin-left: 5vw;
+    }
+
+
+/* header */
+
+    .home .header
+    {
+        height: 450px;
+    }
+
+    .home .logo{
+        width: 250px;
+        margin: 15px 32px 15px;
+    }
+
+
+    .home .compracuotas{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+
+    .home .lista{
+        display: inline;
+        height: 1200px;
+        /* font-size: 21px */;
+        line-height : 20px;
+
+
+    }
+
+    .home .lista a{
+        margin-left: 12px;
+        font-size: 21px;
+    }
+
+    .home .burgermenu{
+        display: none;
+    }
+
+
+
+/* banner */
+
+    .home .banner{
+        width: 111%;
+        display: inline-block;
+        margin-left: -5vw;
+    }
+ 
+/* main */
+
+.home .articulos{
+    box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+}
+
+.home .articulos .fa-truck{
+    font-size: 28px;
+    padding: 10px;
+}
+
+.home .articulos .descripcion{
+    display: block;
+    font-size: 28px;
+}
+
+.home .articulos .imagenproducto{
+    width: 100%;
+}
+
+.home h2{
+    font-size: 40px;
+}
+
+.home .articulos .precio{
+    font-size: 28px;
+}
+
+.home .articulos .descuento{
+    font-size: 28px;
+}
+
+/* footer */
+
+
+
+.home .footer .fa-credit-card{
+    margin-top: 30px;
+    font-size: 3.2em;
+    margin-bottom: 10px;
+}
+
+.home .footer .fa-gift{
+    margin-top: 30px;
+    font-size: 3.2em;
+    margin-bottom: 10px;
+}
+
+.home .footer .fa-user-shield{
+    margin-top: 30px;
+    font-size: 3.2em;
+    margin-bottom: 10px;
+}
+
+
+.home .footer p{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+
+
+.home .footer .copyright {
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+    .home .footer h4{
+    font-size: 22px;
+}
+
+
+
+}
+
+/* DESKTOP */
+@media (min-width:769px) {
+
+    .home .main{
+        margin-left: 10vw;
+    }
+    
+    /* HEADER */
+
+    .home .header
+    {
+        height: 565px;
+    }
+
+    .home .logo{
+        width: 450px;
+    }
+
+
+    .home .compracuotas{
+    font-size: 27px;
+    margin-bottom: 22px;
+}
+
+
+    .home .lista{
+        font-size: 32px;
+        line-height : 18px;
+    }
+
+/* MAIN */    
+
+
+.home .basado{
+    text-align: center;
+    font-size: 65px;
+}
+
+.home .oferta{
+    text-align: center;
+    font-size: 65px;
+}
+
+.home .articulos{
+    margin: 8vw;
+}
+
+    .home .articulos .fa-truck{
+    font-size: 35px;
+    padding: 14px;
+}
+
+    .home .articulos .infoproductos {
+    text-align: left;
+}
+       
+    .home .articulos .descripcion{
+        font-size: 35px;
+        text-align: left;
+    }
+    
+    
+    .home h2{
+        font-size: 46px;
+    }
+    
+    .home .articulos .precio{
+        font-size: 35px;
+    }
+    
+    .home .articulos .descuento{
+        font-size: 35px;
+    }
+    
+    /* footer */
+    
+    .home .footer .fa-credit-card{
+        font-size: 4.5em;
+    }
+    
+    .home .footer .fa-gift{
+        font-size: 4.5em;
+    }
+    
+    .home .footer .fa-user-shield{
+        font-size: 4.5em;
+    }
+    
+    
+    .home .footer p{
+        font-size: 26px;
+    }
+    
+    .home .footer .copyright {
+        font-size: 22px;
+    }
+    
+    .home .footer h4{
+        font-size: 30px;
+    }
+        
+    }
+
